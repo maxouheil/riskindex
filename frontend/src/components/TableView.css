@@ -1,0 +1,661 @@
+.table-view-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.table-header-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.back-link-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.back-link-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+  background: #5568d3;
+}
+
+.back-link-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+}
+
+.table-view-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.table-view-header h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: -0.5px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.total-countries {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+.last-update {
+  font-size: 14px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+/* Onglets */
+.tabs-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.tab-button {
+  padding: 12px 32px;
+  border: 2px solid #667eea;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.tab-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.tab-button.active {
+  background: #667eea;
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.filters-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 250px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.filter-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-box label {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.filter-select {
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.table-wrapper {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.risk-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  table-layout: auto;
+  min-width: 100%;
+}
+
+.risk-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.risk-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: sticky;
+  top: 0;
+}
+
+.risk-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.risk-table th.sortable:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sort-indicator {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.risk-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.2s;
+}
+
+.risk-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.risk-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.risk-table td {
+  padding: 16px;
+  color: #1f2937;
+}
+
+.country-name {
+  font-weight: 600;
+  color: #374151;
+  min-width: 120px;
+  width: auto;
+}
+
+.country-name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.country-code {
+  font-family: 'Courier New', monospace;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.risk-score,
+.risk-score-cell {
+  min-width: 120px;
+  width: auto;
+}
+
+.overall-risk-header {
+  min-width: 180px;
+  width: auto;
+  max-width: 250px;
+}
+
+.overall-risk-cell {
+  min-width: 180px;
+  width: auto;
+  max-width: 250px;
+}
+
+.score-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.score-value {
+  font-weight: 600;
+  color: #1f2937;
+  min-width: 50px;
+  text-align: right;
+}
+
+.score-bar {
+  flex: 1;
+  height: 24px;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  min-width: 100px;
+}
+
+.score-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+  border-radius: 12px;
+}
+
+.risk-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 8px;
+}
+
+.justification-header {
+  min-width: 260px;
+  width: auto;
+  max-width: 520px;
+}
+
+.justification-cell {
+  font-size: 14px;
+  color: #6b7280;
+  min-width: 260px;
+  width: auto;
+  max-width: 520px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.data-year {
+  text-align: center;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.error-message {
+  text-align: center;
+  padding: 40px;
+  color: #ef4444;
+  font-weight: 600;
+  background: #fef2f2;
+  border-radius: 8px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  font-size: 18px;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.error h2 {
+  color: #ef4444;
+  margin-bottom: 12px;
+}
+
+.error p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.retry-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.retry-button:hover {
+  background: #5568d3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-view-header h1 {
+    font-size: 28px;
+  }
+
+  .header-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tabs-container {
+    flex-direction: column;
+  }
+
+  .tab-button {
+    width: 100%;
+  }
+
+  .filters-container {
+    flex-direction: column;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .filter-box {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+
+  .table-wrapper {
+    padding: 16px;
+  }
+
+  .risk-table {
+    font-size: 13px;
+  }
+
+  .risk-table th,
+  .risk-table td {
+    padding: 10px 8px;
+  }
+
+  .score-bar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .score-bar {
+    width: 100%;
+  }
+
+  .justification-cell {
+    max-width: 390px;
+    min-width: 195px;
+    width: auto;
+    font-size: 12px;
+  }
+  
+  .justification-header {
+    min-width: 195px;
+    width: auto;
+    max-width: 390px;
+  }
+  
+  .overall-risk-header {
+    min-width: 150px;
+    width: auto;
+    max-width: 200px;
+  }
+  
+  .overall-risk-cell {
+    min-width: 150px;
+    width: auto;
+    max-width: 200px;
+  }
+  
+  .risk-score,
+  .risk-score-cell {
+    min-width: 100px;
+  }
+  
+  .country-name {
+    min-width: 100px;
+  }
+}
+
+/* Styles pour le mode hebdomadaire */
+.view-mode-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.mode-button {
+  padding: 10px 20px;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.mode-button:hover {
+  background: #f3f4f6;
+}
+
+.mode-button.active {
+  background: #667eea;
+  color: white;
+}
+
+.mode-button.inactive {
+  opacity: 0.6;
+}
+
+.week-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.week-selector label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 16px;
+}
+
+.week-dropdown {
+  padding: 10px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  min-width: 200px;
+}
+
+.week-dropdown:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.week-info {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.week-info h3 {
+  margin: 0 0 8px 0;
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.week-dates {
+  margin: 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.weekly-table {
+  table-layout: auto;
+}
+
+.weekly-table th {
+  vertical-align: top;
+}
+
+.risk-flash-cell {
+  padding: 16px;
+  vertical-align: top;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.risk-level-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
+.risk-level-badge-small {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.risk-level-indicator {
+  margin-bottom: 8px;
+}
+
+.flash-news-title {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+.flash-news-title strong {
+  font-weight: 700;
+}
+
+.flash-news-text {
+  font-size: 13px;
+  color: #374151;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.overall-risk-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .view-mode-selector {
+    flex-direction: column;
+  }
+
+  .mode-button {
+    width: 100%;
+  }
+
+  .week-selector {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .week-dropdown {
+    width: 100%;
+  }
+
+  .risk-flash-cell {
+    min-width: 200px;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .flash-news-text {
+    font-size: 12px;
+  }
+}

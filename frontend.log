@@ -1,0 +1,1401 @@
+
+> risk-index-frontend@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 193 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+4:52:06 PM [vite] hmr update /src/index.css
+4:59:24 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx
+4:59:29 PM [vite] hmr update /src/App.jsx
+4:59:29 PM [vite] hmr update /src/App.jsx
+4:59:39 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx
+4:59:39 PM [vite] hmr update /src/components/TableView.css
+4:59:39 PM [vite] hmr update /src/components/TableView.jsx
+4:59:39 PM [vite] hmr update /src/App.jsx
+5:01:06 PM [vite] hmr update /src/App.jsx
+5:01:16 PM [vite] hmr update /src/App.jsx
+5:02:23 PM [vite] hmr update /src/components/TableView.jsx
+5:02:24 PM [vite] hmr update /src/components/TableView.jsx
+5:02:29 PM [vite] hmr update /src/components/TableView.jsx
+5:03:55 PM [vite] hmr update /src/components/TableView.jsx
+5:04:06 PM [vite] hmr update /src/components/TableView.jsx
+5:05:16 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:05:17 PM [vite] hmr update /src/components/TableView.jsx
+5:05:18 PM [vite] hmr update /src/components/TableView.jsx
+5:05:19 PM [vite] hmr update /src/components/TableView.jsx
+5:05:20 PM [vite] hmr update /src/components/TableView.jsx
+5:05:21 PM [vite] hmr update /src/components/TableView.jsx
+5:05:22 PM [vite] hmr update /src/components/TableView.jsx
+5:05:31 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:05:31 PM [vite] hmr update /src/components/TableView.jsx
+5:05:51 PM [vite] hmr update /src/components/TableView.jsx
+5:05:53 PM [vite] hmr update /src/components/TableView.css
+5:05:54 PM [vite] hmr update /src/components/TableView.css
+5:06:00 PM [vite] hmr update /src/components/TableView.css
+5:06:00 PM [vite] hmr update /src/components/TableView.jsx
+5:07:21 PM [vite] hmr update /src/components/TableView.jsx
+5:07:23 PM [vite] hmr update /src/components/TableView.jsx
+5:07:24 PM [vite] hmr update /src/components/TableView.css
+5:07:26 PM [vite] hmr update /src/components/TableView.css
+5:07:31 PM [vite] hmr update /src/components/TableView.css
+5:07:34 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:07:38 PM [vite] hmr update /src/components/TableView.css
+5:07:39 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:07:40 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:07:43 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:07:51 PM [vite] hmr update /src/components/TableView.css
+5:07:51 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:07:51 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:07:51 PM [vite] hmr update /src/components/TableView.jsx
+5:08:00 PM [vite] hmr update /src/components/TableView.jsx
+5:08:02 PM [vite] hmr update /src/components/TableView.jsx
+5:08:05 PM [vite] hmr update /src/components/TableView.jsx
+5:08:11 PM [vite] hmr update /src/components/TableView.jsx
+5:08:15 PM [vite] hmr update /src/components/TableView.jsx
+5:08:17 PM [vite] hmr update /src/components/TableView.jsx
+5:08:17 PM [vite] warning: The character "}" is not valid inside a JSX element
+305|            </table>
+306|          </div>
+307|        )}
+   |         ^
+308|      </div>);
+309|  
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/TableView.jsx
+5:08:28 PM [vite] hmr update /src/components/TableView.jsx
+5:08:28 PM [vite] warning: The character "}" is not valid inside a JSX element
+305|            </table>
+306|          </div>
+307|        )}
+   |         ^
+308|      </div>);
+309|  
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/TableView.jsx
+5:09:03 PM [vite] hmr update /src/components/TableView.jsx
+5:09:11 PM [vite] hmr update /src/components/TableView.jsx
+5:10:11 PM [vite] hmr update /src/components/TableView.css
+5:10:12 PM [vite] hmr update /src/components/TableView.css
+5:10:12 PM [vite] hmr update /src/components/TableView.css
+5:10:13 PM [vite] hmr update /src/components/TableView.css
+5:10:14 PM [vite] hmr update /src/components/TableView.css
+5:10:14 PM [vite] hmr update /src/components/TableView.css
+5:10:15 PM [vite] hmr update /src/components/TableView.css
+5:10:20 PM [vite] hmr update /src/components/TableView.css
+5:10:56 PM [vite] hmr update /src/components/TableView.jsx
+5:10:58 PM [vite] hmr update /src/components/TableView.jsx
+5:10:59 PM [vite] hmr update /src/components/TableView.css
+5:11:03 PM [vite] hmr update /src/components/TableView.css
+5:11:03 PM [vite] hmr update /src/components/TableView.jsx
+5:11:33 PM [vite] hmr update /src/components/TableView.css
+5:11:35 PM [vite] hmr update /src/components/TableView.css
+5:11:42 PM [vite] hmr update /src/components/TableView.css
+5:12:04 PM [vite] hmr update /src/components/TableView.jsx
+5:12:08 PM [vite] hmr update /src/components/TableView.jsx
+5:12:16 PM [vite] hmr update /src/components/TableView.jsx
+5:12:35 PM [vite] hmr update /src/components/TableView.css
+5:12:36 PM [vite] hmr update /src/components/TableView.css
+5:12:38 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:12:38 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:12:44 PM [vite] hmr update /src/components/TableView.css
+5:13:03 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:13:06 PM [vite] hmr update /src/components/TableView.jsx
+5:13:22 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:13:22 PM [vite] hmr update /src/components/TableView.jsx
+5:13:23 PM [vite] hmr update /src/components/TableView.css
+5:13:23 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:13:24 PM [vite] hmr update /src/components/TableView.jsx
+5:13:25 PM [vite] hmr update /src/components/TableView.css
+5:13:25 PM [vite] hmr update /src/components/TableView.jsx
+5:13:41 PM [vite] hmr update /src/components/TableView.jsx
+5:13:41 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:14:51 PM [vite] hmr update /src/components/TableView.css
+5:15:19 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:15:19 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:15:21 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:15:22 PM [vite] hmr update /src/components/TableView.jsx
+5:15:23 PM [vite] hmr update /src/components/TableView.jsx
+5:15:25 PM [vite] hmr update /src/components/TableView.jsx
+5:15:26 PM [vite] hmr update /src/components/TableView.jsx
+5:15:35 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:15:35 PM [vite] hmr update /src/components/TableView.jsx
+5:16:02 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:16:29 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:16:31 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx
+5:16:31 PM [vite] hmr update /src/App.jsx
+5:16:43 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:16:44 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:16:54 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:16:54 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:17:43 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:17:44 PM [vite] hmr update /src/components/TableView.jsx
+5:17:49 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:17:49 PM [vite] hmr update /src/components/TableView.jsx
+5:18:44 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx
+5:19:02 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:19:11 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:19:13 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:19:17 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:19:18 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:19:21 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:19:27 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx, /src/components/WorldRiskMap.jsx
+5:19:27 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:19:27 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:10 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:11 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:12 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:16 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:17 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:17 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (491:10)
+
+  489 |               })
+  490 |             }
+> 491 |           </Geographies>
+      |           ^
+  492 |         </ComposableMap>
+  493 |
+  494 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:491:10
+  489|                })
+  490|              }
+  491|            </Geographies>
+     |            ^
+  492|          </ComposableMap>
+  493|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:20:24 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:24 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (498:10)
+
+  496 |               })
+  497 |             }
+> 498 |           </Geographies>
+      |           ^
+  499 |         </ComposableMap>
+  500 |
+  501 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:498:10
+  496|                })
+  497|              }
+  498|            </Geographies>
+     |            ^
+  499|          </ComposableMap>
+  500|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:20:26 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:26 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (509:10)
+
+  507 |               })
+  508 |             }
+> 509 |           </Geographies>
+      |           ^
+  510 |         </ComposableMap>
+  511 |
+  512 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:509:10
+  507|                })
+  508|              }
+  509|            </Geographies>
+     |            ^
+  510|          </ComposableMap>
+  511|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:20:33 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:33 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (523:10)
+
+  521 |               })
+  522 |             }
+> 523 |           </Geographies>
+      |           ^
+  524 |         </ComposableMap>
+  525 |
+  526 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:523:10
+  521|                })
+  522|              }
+  523|            </Geographies>
+     |            ^
+  524|          </ComposableMap>
+  525|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:20:43 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:43 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (531:10)
+
+  529 |               })
+  530 |             }
+> 531 |           </Geographies>
+      |           ^
+  532 |         </ComposableMap>
+  533 |
+  534 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:531:10
+  529|                })
+  530|              }
+  531|            </Geographies>
+     |            ^
+  532|          </ComposableMap>
+  533|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:20:48 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:20:48 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (531:10)
+
+  529 |               })
+  530 |             }
+> 531 |           </Geographies>
+      |           ^
+  532 |         </ComposableMap>
+  533 |
+  534 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:531:10
+  529|                })
+  530|              }
+  531|            </Geographies>
+     |            ^
+  532|          </ComposableMap>
+  533|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:21:10 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:21:10 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (531:10)
+
+  529 |               })
+  530 |             }
+> 531 |           </Geographies>
+      |           ^
+  532 |         </ComposableMap>
+  533 |
+  534 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:531:10
+  529|                })
+  530|              }
+  531|            </Geographies>
+     |            ^
+  532|          </ComposableMap>
+  533|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:21:15 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:21:15 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (532:10)
+
+  530 |               })
+  531 |             }
+> 532 |           </Geographies>
+      |           ^
+  533 |         </ComposableMap>
+  534 |
+  535 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:532:10
+  530|                })
+  531|              }
+  532|            </Geographies>
+     |            ^
+  533|          </ComposableMap>
+  534|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:21:22 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:21:22 PM [vite] Internal server error: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx: Unexpected token, expected "}" (532:10)
+
+  530 |               })
+  531 |             }
+> 532 |           </Geographies>
+      |           ^
+  533 |         </ComposableMap>
+  534 |
+  535 |         {tooltipContent && (
+  Plugin: vite:react-babel
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx:532:10
+  530|                })
+  531|              }
+  532|            </Geographies>
+     |            ^
+  533|          </ComposableMap>
+  534|  
+      at constructor (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4666:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseReturnStatement (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13218:28)
+      at JSXParserMixin.parseStatementContent (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/sou/Desktop/CURSOR/RiskIndex/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+5:21:49 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:21:54 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:23:06 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:23:09 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:23:18 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:24:22 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:24:50 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:24:57 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:25:02 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:25:15 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:25:41 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:25:46 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:27:32 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:27:46 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:29:32 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:29:42 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:30:20 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:30:21 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:30:27 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:30:47 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:30:52 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:31:25 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:31:28 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:31:42 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:31:44 PM [vite] hmr update /src/components/TableView.css
+5:32:06 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:32:15 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:32:22 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:32:29 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:32:37 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:32:37 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:34:21 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx, /src/components/WorldRiskMap.jsx
+5:34:22 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:34:23 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:34:25 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:34:33 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:34:37 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:34:38 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:34:46 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:34:46 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:34:57 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:35:02 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:35:08 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:35:08 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:36:33 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:36:45 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:36:47 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:36:57 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:37:08 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:37:08 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:39:06 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:39:15 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:39:16 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:39:18 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:39:20 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:39:26 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:39:48 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:39:55 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:40:44 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:40:46 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:40:52 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:41:37 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:41:41 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:41:47 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:41:47 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:43:41 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:43:44 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:43:52 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:44:14 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:44:20 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:44:28 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:44:28 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:44:55 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:44:56 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:45:10 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:45:11 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:45:18 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:45:18 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:45:30 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+5:45:30 PM [vite] hmr update /src/components/AllCountriesTable.css
+5:45:30 PM [vite] hmr update /src/components/TableView.jsx
+5:48:28 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:48:33 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:48:38 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:48:57 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:48:57 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:50:06 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:50:14 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:50:23 PM [vite] hmr update /src/App.jsx
+5:50:26 PM [vite] hmr update /src/components/TableView.jsx
+5:50:30 PM [vite] hmr update /src/components/TableView.jsx
+5:50:32 PM [vite] hmr update /src/components/TableView.jsx
+5:50:35 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:50:35 PM [vite] hmr update /src/components/TableView.jsx
+5:50:51 PM [vite] hmr update /src/App.jsx
+5:51:01 PM [vite] hmr update /src/components/TableView.jsx
+5:51:01 PM [vite] hmr update /src/App.jsx
+5:51:07 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:51:12 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:51:13 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:53:46 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:53:48 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:53:59 PM [vite] hmr update /src/components/WorldRiskMap.css
+5:53:59 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+5:58:44 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx, /src/components/WorldRiskMap.jsx
+5:58:56 PM [vite] hmr update /src/components/TableView.jsx
+5:59:00 PM [vite] hmr update /src/components/TableView.css
+5:59:09 PM [vite] hmr update /src/components/TableView.jsx
+5:59:09 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx, /src/components/WorldRiskMap.jsx
+5:59:09 PM [vite] hmr update /src/components/TableView.css
+6:14:34 PM [vite] hmr update /src/components/TableView.jsx
+6:14:40 PM [vite] hmr update /src/components/TableView.css
+6:14:59 PM [vite] hmr update /src/components/TableView.jsx
+6:14:59 PM [vite] hmr update /src/components/TableView.css
+6:23:27 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:30 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:32 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:34 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:36 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:38 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:43 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:23:51 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:23:51 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:01 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:01 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:24:01 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:41 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:41 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:43 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:43 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:47 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:47 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:51 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:51 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:51 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:51 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:24:55 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:24:55 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:25:02 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:25:02 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:25:07 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:25:07 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:25:20 PM [vite] hmr update /src/App.jsx
+6:25:24 PM [vite] hmr update /src/components/TableView.jsx
+6:25:27 PM [vite] hmr update /src/components/TableView.jsx
+6:25:29 PM [vite] hmr update /src/components/TableView.jsx
+6:25:34 PM [vite] hmr update /src/components/TableView.jsx
+6:25:39 PM [vite] hmr update /src/components/TableView.css
+6:25:55 PM [vite] hmr update /src/components/TableView.css
+6:26:14 PM [vite] hmr update /src/App.jsx
+6:26:14 PM [vite] hmr update /src/components/TableView.jsx
+6:26:14 PM [vite] hmr update /src/components/TableView.css
+6:29:12 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:29:14 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:29:18 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:29:18 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:29:23 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:29:23 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:29:23 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:30:32 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:30:34 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:30:35 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:30:37 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:30:37 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:30:42 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:30:42 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:30:42 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:36:33 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:36:35 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:36:37 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:36:37 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:36:41 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:36:41 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:36:41 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:37:46 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:37:50 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:40:14 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:40:27 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:22 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:45:22 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:45:25 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:45:25 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:45:27 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:45:27 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:45:35 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:45:35 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:45:37 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:38 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:42 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:43 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:45 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:52 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:45:54 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:46:02 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:46:02 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:46:02 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:46:59 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:47:02 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:47:44 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:47:48 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:48:46 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:48:47 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:49:21 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:49:23 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:51:19 PM [vite] hmr update /src/components/RiskDashboard.jsx, /src/components/AllCountriesTable.jsx, /src/components/GeopoliticalDashboard.jsx, /src/components/TableView.jsx, /src/components/WorldRiskMap.jsx
+6:53:50 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:53:52 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:54:01 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:54:13 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:54:13 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:54:15 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:54:15 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:54:22 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:54:22 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:54:52 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:54:52 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:54:57 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:54:57 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:55:16 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:55:21 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:55:50 PM [vite] hmr update /src/App.jsx
+6:55:50 PM [vite] hmr update /src/components/TableView.jsx
+6:55:50 PM [vite] hmr update /src/components/TableView.css
+6:56:26 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:56:26 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:56:28 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:56:28 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:56:34 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:56:34 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:57:34 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:57:34 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:57:47 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:57:47 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:58:04 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:58:04 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:58:07 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:58:20 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:58:20 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:58:20 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:58:42 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:58:44 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:58:44 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:58:49 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:58:49 PM [vite] hmr update /src/components/WorldRiskMap.css
+6:58:49 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+6:58:49 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+6:58:49 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+7:01:09 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+7:01:09 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+7:01:12 PM [vite] hmr update /src/components/TableView.jsx
+7:01:15 PM [vite] hmr update /src/components/TableView.jsx
+7:01:18 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+7:01:20 PM [vite] hmr update /src/components/GeopoliticalDashboard.jsx
+7:01:45 PM [vite] hmr update /src/components/GeopoliticalDashboard.jsx
+7:01:54 PM [vite] hmr update /src/components/TableView.jsx
+7:01:54 PM [vite] hmr update /src/components/AllCountriesTable.jsx
+7:01:54 PM [vite] hmr update /src/components/GeopoliticalDashboard.jsx
+7:01:54 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+7:01:55 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+7:03:06 PM [vite] hmr update /src/components/WorldRiskMap.css
+7:03:08 PM [vite] hmr update /src/components/WorldRiskMap.css
+7:03:15 PM [vite] hmr update /src/components/WorldRiskMap.css
+7:03:37 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+7:03:37 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+7:03:41 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+7:03:41 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx
+7:03:48 PM [vite] hmr update /src/components/WorldRiskMap.jsx
+7:03:48 PM [vite] warning: Duplicate key "Yemen" in object literal
+217|  
+218|    // Yémen
+219|    'Yemen': 'Yémen',
+   |    ^
+220|  
+221|    // Autres
+
+  Plugin: vite:esbuild
+  File: /Users/sou/Desktop/CURSOR/RiskIndex/frontend/src/components/WorldRiskMap.jsx

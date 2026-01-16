@@ -1,0 +1,571 @@
+.world-risk-map-container {
+  width: 100%;
+  height: 100vh;
+  background: #1B2233;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.map-header-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.table-link-button {
+  background: #ffffff;
+  color: #2d2d2d;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.table-link-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  background: #f5f5f5;
+}
+
+.table-link-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+}
+
+.map-header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-header h1 {
+  margin: 0 0 20px 0;
+  color: #1f2937;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.legend {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.map-and-sidebar-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.map-wrapper {
+  position: relative;
+  background: #1B2233;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-left: -200px;
+}
+
+.map-wrapper svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.map-wrapper svg path {
+  transition: all 0.2s ease;
+}
+
+.risk-popup {
+  position: fixed;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 450px;
+  max-height: 80vh;
+  overflow-y: auto;
+  z-index: 1000;
+  pointer-events: none;
+  border: 2px solid #e5e7eb;
+  transform: translate(0, 0);
+  will-change: transform;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.popup-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  flex: 1;
+}
+
+.risk-score-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.risk-score {
+  font-size: 32px;
+  font-weight: 700;
+  color: #dc2626;
+  line-height: 1;
+}
+
+.risk-change {
+  font-size: 14px;
+  font-weight: 600;
+  color: #dc2626;
+  background: #fee2e2;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.risk-description {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Version v1 - Carte simplifiée */
+.risk-popup-v1 {
+  position: absolute;
+  top: 72px;
+  right: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px 20px;
+  z-index: 99;
+  pointer-events: none;
+  min-width: 280px;
+}
+
+.popup-v1-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.popup-v1-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.popup-v1-country-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.popup-v1-risk-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.popup-v1-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.popup-v1-score-box {
+  /* background color will be set inline based on risk score */
+  border-radius: 6px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.popup-v1-score {
+  font-size: 28px;
+  font-weight: 700;
+  /* color will be set inline based on background luminance */
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.risk-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pillar-item {
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border-left: 3px solid #ec4899;
+}
+
+.pillar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.pillar-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pillar-level {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.pillar-level.high {
+  background: #fce7f3;
+  color: #be185d;
+}
+
+.pillar-level.moderate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.pillar-level.low {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.pillar-headline {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+.pillar-description {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+/* Scrollbar styling for popup */
+.risk-popup::-webkit-scrollbar {
+  width: 8px;
+}
+
+.risk-popup::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.risk-popup::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.risk-popup::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Sidebar - Style détaillé comme dans l'image */
+.risk-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background: white;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  z-index: 100;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-content {
+  transition: opacity 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.map-wrapper {
+  margin-right: 500px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  flex-shrink: 0;
+}
+
+.sidebar-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sidebar-country-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-risk-label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-score-box {
+  border-radius: 8px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-score {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-risks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.sidebar-risk-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-risk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.sidebar-risk-type {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-risk-level-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-risk-level-badge.bas {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.sidebar-risk-level-badge.moyen {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.sidebar-risk-level-badge.élevé {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.sidebar-risk-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-risk-description {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-top: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar-no-data {
+  font-size: 14px;
+  color: #6b7280;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Scrollbar styling for sidebar */
+.risk-sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.risk-sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.risk-sidebar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.risk-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .risk-popup {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+
+  .popup-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .risk-score-box {
+    align-items: flex-start;
+  }
+
+  .legend {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .risk-popup-v1 {
+    min-width: 240px;
+    padding: 12px 16px;
+  }
+
+  .popup-v1-country-name {
+    font-size: 20px;
+  }
+
+  .popup-v1-description {
+    font-size: 14px;
+  }
+
+  .popup-v1-score-box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .popup-v1-score {
+    font-size: 24px;
+  }
+
+  .map-and-sidebar-wrapper {
+    flex-direction: column;
+  }
+
+  .map-wrapper {
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .risk-sidebar {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .sidebar-country-name {
+    font-size: 24px;
+  }
+
+  .sidebar-score-box {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sidebar-score {
+    font-size: 28px;
+  }
+}
