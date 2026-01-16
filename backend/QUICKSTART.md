@@ -3,9 +3,9 @@
 ## ✅ Configuration Complète
 
 Vos clés API sont configurées et testées :
-- ✅ OpenAI API : Configurée et fonctionnelle
+- ✅ Gemini API : Configurée et fonctionnelle
 - ✅ NewsAPI : Configurée et fonctionnelle
-- ✅ Modèle OpenAI : `gpt-4o-mini`
+- ✅ Modèle Gemini : `gemini-1.5-flash`
 
 ## 🚀 Démarrer le Serveur
 
@@ -62,9 +62,9 @@ http://localhost:8000/api/geopolitical/south-africa/weekly
 ## ⚙️ Variables d'Environnement
 
 Toutes les variables sont configurées dans `backend/.env` :
-- `OPENAI_API_KEY` - Clé API OpenAI (requis)
+- `GEMINI_API_KEY` - Clé API Gemini (requis)
 - `NEWSAPI_KEY` - Clé API NewsAPI (optionnel)
-- `OPENAI_MODEL` - Modèle OpenAI (par défaut: `gpt-4o-mini`)
+- `GEMINI_MODEL` - Modèle Gemini (par défaut: `gemini-1.5-flash`)
 
 Pour plus de détails, consultez [ENV_CONFIGURATION.md](./ENV_CONFIGURATION.md)
 
@@ -83,12 +83,12 @@ Pour plus de détails, consultez [ENV_CONFIGURATION.md](./ENV_CONFIGURATION.md)
 
 ### L'analyse IA ne fonctionne pas
 
-1. Vérifiez que `OPENAI_API_KEY` est bien configurée :
+1. Vérifiez que `GEMINI_API_KEY` est bien configurée :
    ```bash
    python test_config.py
    ```
 
-2. Vérifiez votre quota OpenAI sur https://platform.openai.com/usage
+2. Vérifiez votre quota Gemini sur https://ai.google.dev/pricing
 
 3. Vérifiez les logs du serveur pour les erreurs détaillées
 
@@ -105,6 +105,6 @@ Pour plus de détails, consultez [ENV_CONFIGURATION.md](./ENV_CONFIGURATION.md)
 - L'analyse géopolitique est mise en cache pendant 7 jours
 - Utilisez `?force_refresh=true` pour forcer une nouvelle analyse
 - Les articles sont récupérés depuis NewsAPI et plusieurs flux RSS
-- L'analyse IA utilise le modèle `gpt-4o-mini` par défaut (modifiable dans `.env`)
+- L'analyse IA utilise le modèle `gemini-1.5-flash` par défaut (modifiable dans `.env`)
 
 

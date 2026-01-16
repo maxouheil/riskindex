@@ -76,12 +76,12 @@ Si vous voyez une erreur CORS, vérifiez que :
 
 Si le résumé exécutif est vide :
 1. Cliquez sur le bouton **"🔄 Actualiser"** pour forcer le rafraîchissement
-2. Vérifiez que `OPENAI_API_KEY` est bien configurée dans `backend/.env`
+2. Vérifiez que `GEMINI_API_KEY` est bien configurée dans `backend/.env`
 3. Vérifiez les logs du backend pour voir les erreurs
 
 ## 📝 Notes
 
-- Le résumé exécutif est généré par l'IA OpenAI à partir des articles récupérés
+- Le résumé exécutif est généré par l'IA Gemini à partir des articles récupérés
 - Les données sont mises en cache pendant 7 jours
 - Utilisez `?force_refresh=true` dans l'URL de l'API pour forcer une nouvelle analyse
 - Le résumé s'affiche automatiquement au chargement de la page

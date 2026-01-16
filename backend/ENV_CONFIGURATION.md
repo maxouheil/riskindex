@@ -8,25 +8,24 @@ Le fichier `.env` est utilisé pour stocker vos clés API de manière sécurisé
 
 ## Variables d'Environnement Requises
 
-### OPENAI_API_KEY (Requis)
+### GEMINI_API_KEY (Requis)
 
-**Description** : Clé API OpenAI utilisée pour l'analyse IA des articles géopolitiques.
+**Description** : Clé API Google Gemini utilisée pour l'analyse IA des articles géopolitiques.
 
 **Où l'obtenir** :
-1. Créez un compte sur [OpenAI Platform](https://platform.openai.com/)
-2. Connectez-vous à votre compte
-3. Allez dans la section [API Keys](https://platform.openai.com/api-keys)
-4. Cliquez sur "Create new secret key"
-5. Copiez la clé générée (elle commence par `sk-`)
+1. Créez un compte sur [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Connectez-vous avec votre compte Google
+3. Cliquez sur "Get API Key" ou "Create API Key"
+4. Copiez la clé générée
 
 **Format** :
 ```
-OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GEMINI_API_KEY=AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 **Utilisation** : Cette clé est utilisée par le service `ai_synthesis.py` pour générer des analyses géopolitiques à partir des articles récupérés.
 
-**Modèle par défaut** : `gpt-4o-mini` (peut être modifié via `OPENAI_MODEL`)
+**Modèle par défaut** : `gemini-1.5-flash` (peut être modifié via `GEMINI_MODEL`)
 
 ---
 
@@ -51,22 +50,21 @@ NEWSAPI_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ---
 
-### OPENAI_MODEL (Optionnel)
+### GEMINI_MODEL (Optionnel)
 
-**Description** : Modèle OpenAI à utiliser pour l'analyse IA.
+**Description** : Modèle Gemini à utiliser pour l'analyse IA.
 
 **Valeurs possibles** :
-- `gpt-4o-mini` (par défaut, recommandé pour les coûts)
-- `gpt-4o`
-- `gpt-4-turbo`
-- `gpt-3.5-turbo`
+- `gemini-1.5-flash` (par défaut, recommandé pour la vitesse et les coûts)
+- `gemini-1.5-pro` (meilleure qualité, plus lent)
+- `gemini-pro` (version antérieure)
 
 **Format** :
 ```
-OPENAI_MODEL=gpt-4o-mini
+GEMINI_MODEL=gemini-1.5-flash
 ```
 
-**Recommandation** : `gpt-4o-mini` est recommandé car il offre un bon équilibre entre qualité et coût.
+**Recommandation** : `gemini-1.5-flash` est recommandé car il offre un excellent équilibre entre qualité, vitesse et coût.
 
 ---
 
@@ -88,11 +86,11 @@ Ouvrez le fichier `.env` avec votre éditeur de texte préféré et remplissez v
 ```env
 # Configuration des clés API
 
-# Clé API OpenAI (requis pour l'analyse IA)
-OPENAI_API_KEY=sk-proj-votre-cle-openai-ici
+# Clé API Gemini (requis pour l'analyse IA)
+GEMINI_API_KEY=AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# Modèle OpenAI à utiliser (optionnel)
-OPENAI_MODEL=gpt-4o-mini
+# Modèle Gemini à utiliser (optionnel)
+GEMINI_MODEL=gemini-1.5-flash
 
 # Clé API NewsAPI (optionnel)
 NEWSAPI_KEY=votre-cle-newsapi-ici
@@ -102,7 +100,7 @@ NEWSAPI_KEY=votre-cle-newsapi-ici
 
 Assurez-vous que :
 - ✅ Le fichier `.env` est dans le dossier `backend/`
-- ✅ `OPENAI_API_KEY` est rempli avec une clé valide commençant par `sk-`
+- ✅ `GEMINI_API_KEY` est rempli avec une clé valide
 - ✅ Aucun espace autour du signe `=` dans les variables
 - ✅ Les valeurs ne sont pas entre guillemets (sauf si nécessaire)
 
@@ -130,11 +128,11 @@ Il est recommandé de :
 
 ## Dépannage
 
-### Erreur : "OPENAI_API_KEY n'est pas définie"
+### Erreur : "GEMINI_API_KEY n'est pas définie"
 
 **Causes possibles** :
 1. Le fichier `.env` n'existe pas dans `backend/`
-2. La variable `OPENAI_API_KEY` n'est pas définie dans le fichier `.env`
+2. La variable `GEMINI_API_KEY` n'est pas définie dans le fichier `.env`
 3. Le fichier `.env` contient une erreur de syntaxe
 4. Le serveur n'a pas été redémarré après la modification du fichier `.env`
 
@@ -142,21 +140,21 @@ Il est recommandé de :
 1. Vérifiez que le fichier `backend/.env` existe
 2. Vérifiez la syntaxe du fichier `.env` (pas d'espaces autour de `=`)
 3. Redémarrez le serveur backend après modification du `.env`
-4. Vérifiez que la clé API est valide sur le portail OpenAI
+4. Vérifiez que la clé API est valide sur [Google AI Studio](https://makersuite.google.com/app/apikey)
 
-### Erreur : "Erreur lors de la synthèse OpenAI"
+### Erreur : "Erreur lors de la synthèse Gemini"
 
 **Causes possibles** :
 1. Clé API invalide ou expirée
 2. Quota API dépassé
 3. Problème de connexion réseau
-4. Modèle OpenAI non disponible
+4. Modèle Gemini non disponible
 
 **Solutions** :
-1. Vérifiez votre clé API sur [OpenAI Platform](https://platform.openai.com/)
-2. Vérifiez votre quota et votre facturation sur le portail OpenAI
+1. Vérifiez votre clé API sur [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Vérifiez votre quota et votre facturation sur le portail Google Cloud
 3. Vérifiez votre connexion internet
-4. Essayez un autre modèle dans `OPENAI_MODEL`
+4. Essayez un autre modèle dans `GEMINI_MODEL`
 
 ---
 
@@ -165,12 +163,12 @@ Il est recommandé de :
 ```env
 # Configuration des clés API pour Risk Index Backend
 
-# Clé API OpenAI (requis)
-# Obtenez votre clé sur https://platform.openai.com/api-keys
-OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# Clé API Gemini (requis)
+# Obtenez votre clé sur https://makersuite.google.com/app/apikey
+GEMINI_API_KEY=AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# Modèle OpenAI (optionnel, par défaut: gpt-4o-mini)
-OPENAI_MODEL=gpt-4o-mini
+# Modèle Gemini (optionnel, par défaut: gemini-1.5-flash)
+GEMINI_MODEL=gemini-1.5-flash
 
 # Clé API NewsAPI (optionnel)
 # Obtenez votre clé sur https://newsapi.org/
@@ -184,7 +182,7 @@ NEWSAPI_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Pour toute question ou problème lié à la configuration :
 1. Vérifiez ce document
 2. Consultez la documentation des APIs :
-   - [OpenAI API Documentation](https://platform.openai.com/docs)
+   - [Google Gemini API Documentation](https://ai.google.dev/docs)
    - [NewsAPI Documentation](https://newsapi.org/docs)
 3. Vérifiez les logs du serveur backend pour plus de détails
 

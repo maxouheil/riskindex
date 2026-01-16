@@ -7,6 +7,7 @@ from app.api.routes import router
 import uvicorn
 import logging
 import sys
+import os
 from datetime import datetime
 import json
 
@@ -33,13 +34,31 @@ app = FastAPI(
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Configuration CORS
+# Permettre les origines locales et Vercel (via variable d'environnement)
+cors_origins = [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:3000",
+]
+# Ajouter l'origine Vercel si définie
+vercel_url = os.getenv("VERCEL_URL")
+if vercel_url:
+    # Ajouter avec et sans https
+    cors_origins.extend([
+        f"https://{vercel_url}",
+        f"http://{vercel_url}",
+    ])
+# Ajouter l'URL du frontend Vercel si définie
+frontend_url = os.getenv("FRONTEND_URL")
+if frontend_url:
+    cors_origins.extend([
+        frontend_url,
+        frontend_url.replace("https://", "http://"),
+    ])
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:5174",
-        "http://localhost:3000"
-    ],
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -49,7 +68,8 @@ app.add_middleware(
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     # #region agent log
-    LOG_PATH = '/Users/sou/Desktop/CURSOR/RiskIndex/.cursor/debug.log'
+    # Log uniquement en développement (chemin local)
+    LOG_PATH = os.getenv("DEBUG_LOG_PATH", "/tmp/debug.log")
     start_time = datetime.now()
     try:
         log_entry = {

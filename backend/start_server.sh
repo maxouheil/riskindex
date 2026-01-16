@@ -12,9 +12,9 @@ if [ ! -f ".env" ]; then
     exit 1
 fi
 
-# Vérifier que OPENAI_API_KEY est définie
-if ! grep -q "OPENAI_API_KEY=sk-" .env 2>/dev/null; then
-    echo "⚠️  Attention: OPENAI_API_KEY ne semble pas être configurée correctement"
+# Vérifier que GEMINI_API_KEY est définie
+if ! grep -q "GEMINI_API_KEY=" .env 2>/dev/null; then
+    echo "⚠️  Attention: GEMINI_API_KEY ne semble pas être configurée correctement"
     echo "   Vérifiez votre fichier .env"
 fi
 

@@ -19,15 +19,15 @@ cp .env.example .env
 ```
 
 2. Éditez le fichier `.env` et ajoutez vos clés API :
-   - **OPENAI_API_KEY** (requis) : Clé API OpenAI pour l'analyse IA. Obtenez-la sur [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+   - **GEMINI_API_KEY** (requis) : Clé API Google Gemini pour l'analyse IA. Obtenez-la sur [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
    - **NEWSAPI_KEY** (optionnel) : Clé API NewsAPI pour récupérer des articles. Obtenez-la sur [https://newsapi.org/](https://newsapi.org/)
-   - **OPENAI_MODEL** (optionnel) : Modèle OpenAI à utiliser. Par défaut: `gpt-4o-mini`
+   - **GEMINI_MODEL** (optionnel) : Modèle Gemini à utiliser. Par défaut: `gemini-1.5-flash`
 
 Exemple de fichier `.env` :
 ```
-OPENAI_API_KEY=sk-...
+GEMINI_API_KEY=AIzaSy...
 NEWSAPI_KEY=...
-OPENAI_MODEL=gpt-4o-mini
+GEMINI_MODEL=gemini-1.5-flash
 ```
 
 📖 **Documentation complète** : Consultez [ENV_CONFIGURATION.md](./ENV_CONFIGURATION.md) pour une documentation détaillée sur la configuration des variables d'environnement, le dépannage et les bonnes pratiques de sécurité.
@@ -42,9 +42,9 @@ python test_config.py
 ```
 
 Ce script vérifie :
-- ✅ Que votre clé OpenAI est valide et fonctionne
+- ✅ Que votre clé Gemini est valide et fonctionne
 - ✅ Que votre clé NewsAPI est valide (si configurée)
-- ✅ La configuration du modèle OpenAI
+- ✅ La configuration du modèle Gemini
 
 ## Lancement
 
@@ -54,7 +54,7 @@ uvicorn app.main:app --reload --port 8000
 
 L'API sera accessible sur `http://localhost:8000`
 
-**Note** : Sans `OPENAI_API_KEY`, l'analyse IA ne fonctionnera pas et vous verrez une erreur lors de la synthèse des articles.
+**Note** : Sans `GEMINI_API_KEY`, l'analyse IA ne fonctionnera pas et vous verrez une erreur lors de la synthèse des articles.
 
 ## Endpoints
 

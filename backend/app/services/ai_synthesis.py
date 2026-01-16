@@ -5,7 +5,7 @@ from typing import List
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
-from openai import OpenAI
+import google.generativeai as genai
 from app.models.news import NewsArticle, GeopoliticalAnalysis, RiskItem, RiskScores, RiskScore, Scenario
 
 # Charger les variables d'environnement - approche robuste
@@ -20,31 +20,35 @@ except Exception as e:
     print(f"Warning: Could not load .env with dotenv: {e}", file=sys.stderr)
 
 # Lire directement depuis le fichier si pas dans l'environnement
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY or OPENAI_API_KEY == "your_openai_api_key_here":
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not GEMINI_API_KEY or GEMINI_API_KEY == "your_gemini_api_key_here":
     try:
         if env_path.exists():
             with open(env_path, 'r', encoding='utf-8') as f:
                 for line in f:
                     line = line.strip()
-                    if line and not line.startswith('#') and 'OPENAI_API_KEY=' in line:
-                        OPENAI_API_KEY = line.split('=', 1)[1].strip().strip('"').strip("'")
-                        if OPENAI_API_KEY and OPENAI_API_KEY != "your_openai_api_key_here":
-                            os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+                    if line and not line.startswith('#') and 'GEMINI_API_KEY=' in line:
+                        GEMINI_API_KEY = line.split('=', 1)[1].strip().strip('"').strip("'")
+                        if GEMINI_API_KEY and GEMINI_API_KEY != "your_gemini_api_key_here":
+                            os.environ['GEMINI_API_KEY'] = GEMINI_API_KEY
                             break
     except Exception as e:
         import sys
-        print(f"Warning: Could not read OPENAI_API_KEY from .env: {e}", file=sys.stderr)
+        print(f"Warning: Could not read GEMINI_API_KEY from .env: {e}", file=sys.stderr)
         pass
 
 # Debug: vérifier que la clé est chargée (uniquement en développement)
-if not OPENAI_API_KEY or OPENAI_API_KEY == "your_openai_api_key_here":
+if not GEMINI_API_KEY or GEMINI_API_KEY == "your_gemini_api_key_here":
     import sys
-    print("ERROR: OPENAI_API_KEY not properly loaded from .env file", file=sys.stderr)
+    print("ERROR: GEMINI_API_KEY not properly loaded from .env file", file=sys.stderr)
     print(f"Env path checked: {env_path}", file=sys.stderr)
     print(f"File exists: {env_path.exists()}", file=sys.stderr)
 
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")  # Utiliser gpt-4o-mini qui supporte JSON
+# Configurer Gemini
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")  # Modèle Gemini par défaut
 
 
 def create_analysis_prompt(articles: List[NewsArticle]) -> str:
@@ -152,9 +156,9 @@ IMPORTANT - RÈGLES STRICTES:
 
 
 def synthesize_articles(articles: List[NewsArticle]) -> GeopoliticalAnalysis:
-    """Synthétise les articles avec OpenAI"""
-    if not OPENAI_API_KEY:
-        raise ValueError("OPENAI_API_KEY n'est pas définie")
+    """Synthétise les articles avec Gemini"""
+    if not GEMINI_API_KEY:
+        raise ValueError("GEMINI_API_KEY n'est pas définie")
     
     if not articles:
         default_risk_score = RiskScore(score=5, justification="Données insuffisantes pour évaluer")
@@ -176,28 +180,27 @@ def synthesize_articles(articles: List[NewsArticle]) -> GeopoliticalAnalysis:
         )
     
     try:
-        client = OpenAI(api_key=OPENAI_API_KEY)
+        # Initialiser le modèle Gemini
+        model = genai.GenerativeModel(GEMINI_MODEL)
+        
+        # Créer le prompt complet avec instructions système
+        system_instruction = "Tu es un expert en analyse géopolitique spécialisé sur l'Afrique du Sud. Tu connais parfaitement le contexte politique (ANC, DA, EFF), économique (loadshedding, Eskom, chômage), social (inégalités, tensions raciales) et sécuritaire (criminalité, zones à risque) de ce pays. Tu réponds toujours en français avec du JSON valide. Tu es TRÈS SPÉCIFIQUE et CONTEXTUEL, tu évites les généralités et tu cites toujours des exemples concrets."
+        
         prompt = create_analysis_prompt(articles)
+        full_prompt = f"{system_instruction}\n\n{prompt}"
         
-        # Utiliser un modèle qui supporte JSON format
-        use_json_format = OPENAI_MODEL in ["gpt-4-turbo", "gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo"]
-        
-        messages = [
-            {"role": "system", "content": "Tu es un expert en analyse géopolitique spécialisé sur l'Afrique du Sud. Tu connais parfaitement le contexte politique (ANC, DA, EFF), économique (loadshedding, Eskom, chômage), social (inégalités, tensions raciales) et sécuritaire (criminalité, zones à risque) de ce pays. Tu réponds toujours en français avec du JSON valide. Tu es TRÈS SPÉCIFIQUE et CONTEXTUEL, tu évites les généralités et tu cites toujours des exemples concrets."},
-            {"role": "user", "content": prompt}
-        ]
-        
-        params = {
-            "model": OPENAI_MODEL,
-            "messages": messages,
-            "temperature": 0.3
+        # Configurer la génération avec JSON
+        generation_config = {
+            "temperature": 0.3,
+            "response_mime_type": "application/json",
         }
         
-        if use_json_format:
-            params["response_format"] = {"type": "json_object"}
-        
-        response = client.chat.completions.create(**params)
-        content = response.choices[0].message.content
+        # Générer la réponse
+        response = model.generate_content(
+            full_prompt,
+            generation_config=generation_config
+        )
+        content = response.text
         
         # Parser le JSON
         try:
@@ -280,4 +283,4 @@ def synthesize_articles(articles: List[NewsArticle]) -> GeopoliticalAnalysis:
         )
         
     except Exception as e:
-        raise Exception(f"Erreur lors de la synthèse OpenAI: {str(e)}")
+        raise Exception(f"Erreur lors de la synthèse Gemini: {str(e)}")

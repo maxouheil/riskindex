@@ -65,14 +65,14 @@ Testez l'endpoint d'analyse :
 http://localhost:8000/api/geopolitical/south-africa/weekly?force_refresh=true
 ```
 
-Si vous voyez toujours l'erreur "OPENAI_API_KEY n'est pas définie" :
+Si vous voyez toujours l'erreur "GEMINI_API_KEY n'est pas définie" :
 
 1. **Vérifiez le fichier .env** :
    ```bash
    cd backend
    cat .env
    ```
-   Assurez-vous que `OPENAI_API_KEY=sk-...` est bien présent (pas `your_openai_api_key_here`)
+   Assurez-vous que `GEMINI_API_KEY=AIzaSy...` est bien présent (pas `your_gemini_api_key_here`)
 
 2. **Redémarrez le serveur backend** (Ctrl+C puis relancez)
 
@@ -87,7 +87,7 @@ Si vous voyez toujours l'erreur "OPENAI_API_KEY n'est pas définie" :
 3. **Vérifiez le contenu** :
    ```bash
    cd backend
-   grep OPENAI_API_KEY .env
+   grep GEMINI_API_KEY .env
    ```
 4. **Redémarrez le serveur** :
    ```bash

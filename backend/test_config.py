@@ -19,34 +19,30 @@ except Exception as e:
     print(f"⚠️  Impossible de charger le fichier .env: {e}")
     print("   Les variables d'environnement système seront utilisées")
 
-def test_openai_key():
-    """Teste la clé API OpenAI"""
-    api_key = os.getenv("OPENAI_API_KEY")
+def test_gemini_key():
+    """Teste la clé API Gemini"""
+    api_key = os.getenv("GEMINI_API_KEY")
     
     if not api_key:
-        print("❌ OPENAI_API_KEY n'est pas définie")
+        print("❌ GEMINI_API_KEY n'est pas définie")
         return False
     
-    if api_key == "your_openai_api_key_here":
-        print("❌ OPENAI_API_KEY n'a pas été remplacée (valeur par défaut)")
+    if api_key == "your_gemini_api_key_here":
+        print("❌ GEMINI_API_KEY n'a pas été remplacée (valeur par défaut)")
         return False
     
-    if not api_key.startswith("sk-"):
-        print("⚠️  OPENAI_API_KEY ne commence pas par 'sk-' (format suspect)")
-        return False
-    
-    print(f"✅ OPENAI_API_KEY configurée (début: {api_key[:10]}...)")
+    print(f"✅ GEMINI_API_KEY configurée (début: {api_key[:10]}...)")
     
     # Test de connexion basique
     try:
-        from openai import OpenAI
-        client = OpenAI(api_key=api_key)
+        import google.generativeai as genai
+        genai.configure(api_key=api_key)
         # Test simple - liste des modèles (opération légère)
-        models = client.models.list()
-        print("✅ Connexion à l'API OpenAI réussie")
+        models = list(genai.list_models())
+        print("✅ Connexion à l'API Gemini réussie")
         return True
     except Exception as e:
-        print(f"❌ Erreur de connexion à OpenAI: {str(e)}")
+        print(f"❌ Erreur de connexion à Gemini: {str(e)}")
         return False
 
 def test_newsapi_key():
@@ -87,10 +83,10 @@ def test_newsapi_key():
         print(f"⚠️  Erreur de connexion à NewsAPI: {str(e)}")
         return None
 
-def test_openai_model():
-    """Vérifie le modèle OpenAI configuré"""
-    model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-    print(f"✅ Modèle OpenAI: {model}")
+def test_gemini_model():
+    """Vérifie le modèle Gemini configuré"""
+    model = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+    print(f"✅ Modèle Gemini: {model}")
     return True
 
 def main():
@@ -102,9 +98,9 @@ def main():
     
     results = []
     
-    # Test OpenAI (requis)
-    print("1. Test de la clé API OpenAI (requis):")
-    results.append(("OpenAI", test_openai_key()))
+    # Test Gemini (requis)
+    print("1. Test de la clé API Gemini (requis):")
+    results.append(("Gemini", test_gemini_key()))
     print()
     
     # Test NewsAPI (optionnel)
@@ -114,9 +110,9 @@ def main():
         results.append(("NewsAPI", newsapi_result))
     print()
     
-    # Test modèle OpenAI
-    print("3. Configuration du modèle OpenAI:")
-    test_openai_model()
+    # Test modèle Gemini
+    print("3. Configuration du modèle Gemini:")
+    test_gemini_model()
     print()
     
     # Résumé
@@ -124,12 +120,12 @@ def main():
     print("Résumé:")
     print("=" * 50)
     
-    openai_ok = results[0][1] if results else False
-    if openai_ok:
-        print("✅ Configuration OpenAI: OK")
+    gemini_ok = results[0][1] if results else False
+    if gemini_ok:
+        print("✅ Configuration Gemini: OK")
     else:
-        print("❌ Configuration OpenAI: ÉCHEC")
-        print("   L'analyse IA ne fonctionnera pas sans une clé OpenAI valide")
+        print("❌ Configuration Gemini: ÉCHEC")
+        print("   L'analyse IA ne fonctionnera pas sans une clé Gemini valide")
     
     if newsapi_result is not None:
         if newsapi_result:
@@ -141,12 +137,12 @@ def main():
     
     print()
     
-    if openai_ok:
+    if gemini_ok:
         print("🎉 Configuration prête! Vous pouvez démarrer le serveur avec:")
         print("   uvicorn app.main:app --reload --port 8000")
         return 0
     else:
-        print("⚠️  Veuillez configurer OPENAI_API_KEY dans le fichier .env")
+        print("⚠️  Veuillez configurer GEMINI_API_KEY dans le fichier .env")
         return 1
 
 if __name__ == "__main__":
